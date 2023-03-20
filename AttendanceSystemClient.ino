@@ -7,9 +7,15 @@
 
 const char* ssid = "TP-Link_8CE0";
 const char* pass = "33508030";
-const char* gateName = "First";
 
 String postRequest = "http://192.168.0.106:8080/at/add/";
+
+const char* ssid_phone = "Xiaomi 11T Pro";
+const char* pass_phone = "asdfghjk";
+
+String postRequestPhone = "http://192.168.87.69:8080/at/add/";
+
+const char* gateName = "First";
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 
